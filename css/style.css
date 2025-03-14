@@ -477,14 +477,14 @@ ul {
     font-size: 1.5rem;
 }
 
-.footer h4 {
+.footer h3 {
     color: var(--light-color);
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
 }
 
 .footer-contact p {
-    color: var(--light-gray);
+    color: #ffffff;
     margin-bottom: 0.8rem;
     display: flex;
     align-items: center;
@@ -500,7 +500,7 @@ ul {
 }
 
 .footer-links a {
-    color: var(--light-gray);
+    color: #ffffff;
 }
 
 .footer-links a:hover {
@@ -533,12 +533,22 @@ ul {
 .footer-bottom {
     text-align: center;
     padding: 1.5rem 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .footer-bottom p {
-    color: var(--light-gray);
+    color: #ffffff;
     margin-bottom: 0;
+}
+
+.footer-bottom a {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer-bottom a:hover {
+    color: #ffffff;
 }
 
 /* ===== WHATSAPP BUTTON ===== */
